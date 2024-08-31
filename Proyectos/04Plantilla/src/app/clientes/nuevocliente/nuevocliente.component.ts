@@ -38,21 +38,6 @@ export class NuevoclienteComponent implements OnInit {
         this.frm_Cliente.controls['Telefono'].setValue(uncliente.Telefono);
         this.frm_Cliente.controls['Cedula'].setValue(uncliente.Cedula);
         this.frm_Cliente.controls['Correo'].setValue(uncliente.Correo);
-        /*this.frm_Cliente.setValue({
-          Nombres: uncliente.Nombres,
-          Direccion: uncliente.Direccion,
-          Telefono: uncliente.Telefono,
-          Cedula: uncliente.Cedula,
-          Correo: uncliente.Correo
-        });*/
-        /*this.frm_Cliente.patchValue({
-          Cedula: uncliente.Cedula,
-          Correo: uncliente.Correo,
-          Nombres: uncliente.Nombres,
-          Direccion: uncliente.Direccion,
-          Telefono: uncliente.Telefono
-        });*/
-
         this.titulo = 'Editar Cliente';
       });
     }
